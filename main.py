@@ -77,7 +77,7 @@ if __name__ == '__main__':
 
     while True:
         print('------------- MENU -----------------')
-        print('1 - Digite 1 para verificar todas as audiências de um processo com tempo maior our igual ao informado.')
+        print('1 - Digite 1 para verificar todas as audiências de um processo com tempo maior ou igual ao informado.')
         print('2 - Digite 2 para verificar a quantidade de decisões deferidas e indeferidas dos processos de uma pessoa.')
         print('3 - Digite 3 para verificar os custos dos processos de uma pessoa.')
         print('4 - Digite 4 para verificar os custos dos processos de uma pessoa com um único advogado.')
