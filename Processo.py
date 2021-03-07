@@ -75,11 +75,7 @@ class Processo:
 
     def __str__(self):
         saida = ''
-        saida1 = ''
-
-        for i in range(len(self._advogado)):
-            saida1 = saida1 + '{}'.format(self._advogado[i]) + ' '
 
         for i in range(len(self._audiencias)):
             saida = saida + '{}'.format(self._audiencias[i]) + ' '
-        return "descrição: {},custo: {}, decisão: {}, status: {}, pessoa => nome: {}, cpf: {}, advogado => cod_OAB: {}, nome: {}, audiencias => {}".format(self._descricao, self._custo, self._decisao, self._status, self._pessoa.nome, self._pessoa.cpf, self._advogado.cod_oab, self._advogado.nome, saida, saida1)
+        return "descrição: {},custo: {}, decisão: {}, status: {}, pessoa => nome: {}, cpf: {}, advogado => cod_OAB: {}, nome: {}, audiencias => {}".format(self._descricao, self._custo, self._decisao, self._status, self._pessoa.nome, self._pessoa.cpf, self._advogado.cod_oab, self._advogado.nome, saida)
