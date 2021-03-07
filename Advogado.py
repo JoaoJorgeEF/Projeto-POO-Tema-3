@@ -41,11 +41,6 @@ class Advogado:
         return saida
 
     def valor_ganho_ADV(self):
-        # valorTotal = 0
-        # for i in range(len(self._processos)):
-        #     if self._processos[i].advogado.cod_oab == cod_oab:
-        #         self._processos.custo.valor + valorTotal
-        #         return valorTotal
         valorTotal = 0
         for i in range(len(self._processos)):
             valorTotal += self._processos[i].custo.valor
